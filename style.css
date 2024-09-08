@@ -1,0 +1,40 @@
+* {box-sizing: border-box;
+}
+
+body {background-color: antiquewhite
+};
+.row {display:flex;
+align-content: center;}
+
+div.container{flex: 30%;
+text-align: center;
+margin-top: 10%;
+}
+
+.container h1{font-family: 'Courier New', Courier, monospace;
+font-size: 60px;}
+
+.container span{font-size: 40px;}
+
+button{padding: 20px 30px;
+border: 2px solid black;
+background: none;
+border-radius: 10px;
+font-size: 20px;
+cursor: pointer;
+opacity: .5;
+transition:0.5s;
+}
+button:hover{background-color:brown;
+    box-shadow: 2px 2px 1px rgba(79, 199, 129, 0.3);
+    color: wheat;
+    opacity: 1;
+
+
+}
+
+
+
+
+
+
